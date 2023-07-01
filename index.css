@@ -1,0 +1,145 @@
+*{padding: 0 ; margin:  0 ;}
+
+
+body{
+    display: flex;
+    background-color: #616161;
+    justify-content: center;
+    align-items: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+ 
+}
+
+.containor{
+    background-color: #CAC9C9 ;
+    width: 400px;
+    height: 500px;
+    border-radius: 10px;
+    border: white 5px solid;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 35%  20% 10% 15% 20% ;
+
+
+}
+
+.img-container{
+    position: relative;
+    border-radius: 10px 10px 0px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.bg{
+    position: absolute;
+    border-radius: 10px 10px 0px 0px;
+}
+
+.profile-img{
+    margin-top: 70px;
+    z-index: 8;
+    border:  3px solid ;
+    border-color: white transparent white transparent;
+    border-radius: 50%;
+    overflow: hidden;
+    width: 150px;
+    height: 150px;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+ 
+}
+
+.id{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+
+h2{
+    margin-top: 25px;
+
+}
+
+.icon-co{
+    margin-top: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.icon-co > button {
+    cursor: pointer;
+    border: 3px solid transparent ;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+    width: 40px ;
+    height: 40px;
+    background-color: #0B1754;
+    border-radius: 50%;
+    color: #FF4D00;
+    margin: 0px 10px;
+    transition: all 0.5s ease-in-out;
+}
+
+.icon-co > button:hover{
+    background-color: #FF4D00;
+    color: #0B1754;
+}
+.status{
+    margin-top: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    width: 60%;
+    justify-self: center;
+    border-top: #616161 2px solid;
+    border-bottom: #616161 2px solid;
+   
+}
+
+.status-icon{
+    margin: 0px 10px;
+    display: flex;
+    flex-direction: row;
+    font-family: sans-serif;
+    align-items: center;
+    color: #443B6A;
+}
+
+.status-icon > p {
+    margin: 0px 5px;
+    color: #565656;
+}
+
+.buttons{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 90%;
+    justify-self: center;
+
+}
+
+.btn{
+    width: 160px;
+    border: 3px solid #0B1754;
+    font-size: 18px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #0B1754;
+    background-color: #FF4D00;
+    padding: 10px;
+    border-radius: 15px;
+    transition: all 0.5s ease-in-out;
+}
+
+
+.btn:hover{
+    border:  2px solid #FF4D00;
+    background-color: #0B1754;
+    color: #FF4D00;
+
+}
+
